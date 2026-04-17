@@ -1,0 +1,159 @@
+{
+    "locators": [
+        {
+            "id": "TC01",
+            "locators": [
+                {
+                    "step": "Navigate to the homepage.",
+                    "locator": "page.goto('/')",
+                    "action": "goto"
+                },
+                {
+                    "step": "The heading 'Welcome to the-internet' is displayed.",
+                    "locator": "page.getByText('Welcome to the-internet')",
+                    "action": "getByText"
+                }
+            ]
+        },
+        {
+            "id": "TC03",
+            "locators": [
+                {
+                    "step": "Navigate to the homepage.",
+                    "locator": "page.goto('/')",
+                    "action": "goto"
+                }
+            ]
+        },
+        {
+            "id": "TC04",
+            "locators": [
+                {
+                    "step": "Navigate to the checkboxes page.",
+                    "locator": "page.locator(\"a:text('Elemental Selenium')\").first()",
+                    "action": "click"
+                }
+            ]
+        },
+        {
+            "id": "TC05",
+            "locators": [
+                {
+                    "step": "Navigate to the login page.",
+                    "locator": "page.goto('/login')",
+                    "action": "goto"
+                },
+                {
+                    "step": "Enter valid username.",
+                    "locator": "page.locator('#username')",
+                    "action": "fill"
+                },
+                {
+                    "step": "Enter valid password.",
+                    "locator": "page.locator('#password')",
+                    "action": "fill"
+                },
+                {
+                    "step": "Click the login button.",
+                    "locator": "page.locator('button:has-text(\"Login\")')",
+                    "action": "click"
+                }
+            ]
+        },
+        {
+            "id": "TC06",
+            "locators": [
+                {
+                    "step": "Navigate to the dropdown page.",
+                    "locator": "page.goto('/dropdown')",
+                    "action": "goto"
+                },
+                {
+                    "step": "Select an option from the dropdown.",
+                    "locator": "page.locator('#dropdown')",
+                    "action": "selectOption"
+                },
+                {
+                    "step": "Verify the selected value is displayed correctly.",
+                    "locator": "page.locator('#dropdown')",
+                    "action": "textContent"
+                }
+            ]
+        },
+        {
+            "id": "TC07",
+            "locators": [
+                {
+                    "step": "Navigate to the file upload page.",
+                    "locator": "page.goto('/upload')",
+                    "action": "goto"
+                },
+                {
+                    "step": "Select a file for upload.",
+                    "locator": "page.locator('#file-upload')",
+                    "action": "fill"
+                },
+                {
+                    "step": "Click the upload button.",
+                    "locator": "page.locator('#file-submit')",
+                    "action": "click"
+                }
+            ]
+        },
+        {
+            "id": "TC08",
+            "locators": [
+                {
+                    "step": "Navigate to the homepage.",
+                    "locator": "page.goto('/')",
+                    "action": "goto"
+                }
+            ]
+        },
+        {
+            "id": "TC09",
+            "locators": [
+                {
+                    "step": "Navigate to the checkboxes page.",
+                    "locator": "page.locator('a')",
+                    "action": "click"
+                }
+            ]
+        },
+        {
+            "id": "TC10",
+            "locators": [
+                {
+                    "step": "Navigate to the login page.",
+                    "locator": "page.goto('/login')",
+                    "action": "goto"
+                },
+                {
+                    "step": "Enter username",
+                    "locator": "page.locator('#username')",
+                    "action": "fill"
+                },
+                {
+                    "step": "Enter password",
+                    "locator": "page.locator('#password')",
+                    "action": "fill"
+                },
+                {
+                    "step": "Click Login button",
+                    "locator": "page.locator('button:has-text(\"Login\")')",
+                    "action": "click"
+                }
+            ]
+        },
+        {
+            "id": "TC11",
+            "locators": [
+                {
+                    "step": "Navigate to the dropdown page.",
+                    "locator": "page.goto('/dropdown')",
+                    "action": "goto"
+                }
+            ]
+        }
+    ]
+}

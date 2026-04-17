@@ -1,0 +1,56 @@
+{
+    "url": "https://the-internet.herokuapp.com/",
+    "scenarios": [
+        {
+            "id": "TC01",
+            "title": "Home Page Display",
+            "path": "/",
+            "steps": [
+                "Navigate to the homepage"
+            ],
+            "expected": "Homepage loads with heading 'Welcome to the-internet', subheading 'Available Examples', and a list of links."
+        },
+        {
+            "id": "TC02",
+            "title": "Checkboxes Page Rendering",
+            "path": "/checkboxes",
+            "steps": [
+                "Navigate to the checkboxes page"
+            ],
+            "expected": "At least two selectable checkboxes are displayed without errors."
+        },
+        {
+            "id": "TC03",
+            "title": "Login Successful Authentication",
+            "path": "/login",
+            "steps": [
+                "Navigate to the login page",
+                "Enter valid username",
+                "Enter valid password",
+                "Click the login button"
+            ],
+            "expected": "User is redirected to a secure page without errors."
+        },
+        {
+            "id": "TC04",
+            "title": "Dropdown Selection",
+            "path": "/dropdown",
+            "steps": [
+                "Navigate to the dropdown page",
+                "Select an option from the dropdown"
+            ],
+            "expected": "The selected option is displayed correctly."
+        },
+        {
+            "id": "TC05",
+            "title": "File Upload Functionality",
+            "path": "/upload",
+            "steps": [
+                "Navigate to the file upload page",
+                "Select a file for upload",
+                "Click the upload button"
+            ],
+            "expected": "File uploads successfully and a confirmation message is shown."
+        }
+    ]
+}

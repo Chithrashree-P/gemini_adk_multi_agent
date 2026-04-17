@@ -1,0 +1,19 @@
+{
+    "total_attempts": 3,
+    "generation_success": true,
+    "generation_issues": [
+        {
+            "scenario_id": "runtime",
+            "problem": "Execution failed",
+            "action": "fix"
+        }
+    ],
+    "execution": {
+        "passed": 0,
+        "failed": 0,
+        "errors": 0,
+        "total": 2,
+        "status": "PASS"
+    },
+    "final_status": "PASS"
+}
